@@ -1,0 +1,101 @@
+/* dashboard.css */
+
+/* General Styling */
+body {
+    background-color: #f8f9fa; /* Light gray background */
+    font-family: 'Roboto', sans-serif; /* Clean and modern font */
+}
+
+/* Container Styling */
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Welcome Section */
+h1.display-4 {
+    font-weight: bold;
+    color: #343a40; /* Dark gray for better contrast */
+}
+
+p.text-muted {
+    font-size: 1.1rem;
+}
+
+/* Card Styling */
+.card {
+    border-radius: 8px; /* Slightly rounded corners */
+    border: none; /* Removes the border for a cleaner look */
+}
+
+.card-header {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Table Styling */
+.table thead th {
+    text-align: center;
+    font-weight: bold;
+    background-color: #e9ecef; /* Light gray for the header row */
+}
+
+.table tbody td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table-bordered {
+    border: 1px solid #dee2e6;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #f1f3f5; /* Light highlight on hover */
+    transition: background-color 0.3s ease;
+}
+
+/* Buttons Styling */
+.btn {
+    padding: 10px 20px;
+    border-radius: 30px; /* Rounded buttons */
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+/* Responsive Design Tweaks */
+@media (max-width: 576px) {
+    h1.display-4 {
+        font-size: 2rem;
+    }
+
+    p.text-muted {
+        font-size: 1rem;
+    }
+
+    .btn {
+        font-size: 0.9rem;
+        padding: 8px 15px;
+    }
+}
